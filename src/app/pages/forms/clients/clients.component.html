@@ -1,0 +1,45 @@
+<link rel="stylesheet" href="../forms.css" media="screen">
+<link rel="stylesheet" href="../../home.css" media="screen">
+<app-header></app-header>
+<div class="page-wrapper bg-dark p-t-100 p-b-50">
+    <div class="wrapper wrapper--w900">
+        <div class="card card-6">
+            <div class="card-heading">
+                <h2 class="title">Registro de Cliente</h2>
+            </div>
+            <div class="card-body">
+                <form method="POST">
+
+                    <div class="form-row">
+                        <div class="name" for="inputEmpresa">Nombre</div>
+                        <div class="value">
+                            <input class="input--style-6" type="text" id="inputArea">
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="name" for="inputType">Tipo de usuario</div>
+                        <select name="value">
+                            <option disabled="disabled" selected="selected">Selecciona un tipo de usuario</option>
+                            <option>Owner</option>
+                            <option>Gerente General</option>
+                            <option>Administrador</option>
+                            <option>Compras</option>
+                            <option>Gerente Zona</option>
+                        </select>
+                    </div>
+
+                </form>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn--radius-2 btn--blue-2">Registrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-20bf">
+    <div class="u-clearfix u-sheet u-sheet-1">
+        <p class="u-small-text u-text u-text-variant u-text-1"> © 2023 Carlos Ruiz |&nbsp;Adventures Photos&nbsp;|
+            All Rights Reserved</p>
+    </div>
+</footer>
